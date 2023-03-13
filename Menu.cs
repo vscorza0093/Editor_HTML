@@ -80,7 +80,7 @@ namespace Editor_HTML
         {
             switch (option)
             {
-                case '1': break;
+                case '1': Editor.Show(); break;
                 case '2': break;
                 case '0': CloseApplication(); break;
                 default:  Show(); break;
